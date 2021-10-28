@@ -1,6 +1,10 @@
+import * as Styled from './style'
+
 const Header = () =>{
     return(
-        <div> Tentativa de header</div>
+        <Styled.Container>
+            
+        </Styled.Container>
     )
 
 }
