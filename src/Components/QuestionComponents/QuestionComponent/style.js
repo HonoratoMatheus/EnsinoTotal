@@ -6,10 +6,16 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    border: black solid 3px;
+    border-radius: 5px;
+    border: gray solid 1px;
     `
 export const Content = styled.div`
-    width: 80%;`
+    
+    width: 100%;`
+
+export const Title = styled.h1`
+    font-size: 20px;
+    width: 100%;`
 
 export const TextWrapper = styled.div`
     width: 100%;`
@@ -21,6 +27,7 @@ export const OptionsWrapper = styled.div`
     margin-bottom: 10px;
     `
 export const CommentWrapper = styled.div`
-    width: 100%;
+    margin-left: 50px;
+width: auto;
     display:flex;
     flex-direction: column`

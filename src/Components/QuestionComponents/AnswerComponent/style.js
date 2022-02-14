@@ -4,7 +4,6 @@ export const Container = styled.div`
     width: 100%;
     min-height: 30px;
     padding: 5px;
-    background-color: gray;
     margin: 10px;
     border-radius: 5px;
     `
